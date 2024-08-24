@@ -131,6 +131,13 @@
 	    width: 49%; /* 원하는 크기로 조절 */
 	    height: auto; /* 이미지의 비율을 유지 */
 	    }	
+	    
+	    .wide-video {
+            width: 1000px; /* 가로 길이 1000px */
+            height: auto; /* 비율 유지 */
+            display: block;
+            margin: 20px auto; /* 센터 정렬을 위해 추가 */
+        }
     </style>
 </head>
 
@@ -305,7 +312,10 @@
         <a class="next" onclick="plusSlides(1, 'slideshow1')">&#10095;</a>
     </div>
 
-
+	<h2><p style="font-size:1.3em;text-align:center; font-family: 'Times New Roman';font-weight: normal;">Overview video</h1>
+	<<div style="text-align:center;">
+        <iframe class="wide-video" width="1000" height="563" src="https://youtu.be/pMu-Jj6-EuM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
 	
 
     <br/>
